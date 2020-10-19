@@ -49,3 +49,9 @@ section h1 {
     padding-bottom: 0.2em;
     border-bottom: 5px dashed #C0C0C0;
 }
+
+/* Fix the layout of equations tag */
+section svg[data-marp-fitting-math] [data-marp-fitting-svg-content] {
+    margin: 0;
+    width: 100%;
+}
